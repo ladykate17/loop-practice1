@@ -22,10 +22,12 @@ console.log("End Exercise 2");
 
 
 //exercise 3: 1 1 1 2 2 2 3 3 3
-for(var i = 0; i < 4; i++){
-    console.log(i);
-	console.log(i);
-	console.log(i);
+for(var i = 1; i <= 3; i++){
+    
+    for(var x = 1; x <= 3; x++){
+    	console.log(i);
+	}
+
 }
 console.log("End Exercise 3");
 
